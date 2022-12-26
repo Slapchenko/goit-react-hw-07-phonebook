@@ -18,7 +18,7 @@ export function ContactForm() {
       return alert(`${name} is already in contacts`);
     }
 
-    dispatch(addContact({name, phone}));
+    dispatch(addContact({ name, phone }));
 
     setName('');
     setPhone('');
