@@ -63,7 +63,7 @@ button {
 #root {
   height: 470px;
   padding: 30px;
-  min-width: 430px;
+  min-width: 360px;
   overflow-y: auto;
   border: 1px solid grey;
   box-shadow: 2px -1px 22px 0px rgba(255, 255, 255, 0.75);
