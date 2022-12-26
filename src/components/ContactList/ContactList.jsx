@@ -11,9 +11,9 @@ export const ContactList = () => {
 
   return (
     <ContactListGroup>
-      {visibleContacts.map(({ id, name, number }) => (
+      {visibleContacts.map(({ id, name, phone }) => (
         <СontactСard key={id}>
-          <Contact name={name} number={number} id={id} />
+          <Contact name={name} number={phone} id={id} />
         </СontactСard>
       ))}
     </ContactListGroup>
