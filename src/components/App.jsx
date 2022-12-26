@@ -5,6 +5,7 @@ import { getError, getIsLoading } from "../redux/selectors";
 import { Section } from './Section';
 import { ContactForm } from './ContactForm';
 import { Filter } from './Filter';
+import { Loader } from './Loader';
 import { ContactList } from './ContactList';
 
 export function App() {
@@ -25,7 +26,7 @@ export function App() {
       <Section title="Contacts">
         <Filter />
         <ContactList />
-        {isLoading && !error && <b>Request in progress...</b>}
+        {isLoading && !error && <Loader />}
       </Section>
     </>
   );
